@@ -1,5 +1,6 @@
 /* import { Link } from 'react-scroll' */
 import ReusableButton from './ReusableButton'
+import '../styles/home.css'
 import { Link } from 'react-router-dom' /* import { BsFillArrowUpCircleFill } from 'react-icons/bs' */
 /* import { animateScroll as scroll } from 'react-scroll' */
 const Image = () => {
@@ -20,7 +21,7 @@ const Image = () => {
           height={170}
         />
         <img
-          id='img1'
+          id='img3'
           src={require('../img/smartphone1.jpg')}
           className='img'
           alt=''
@@ -44,6 +45,7 @@ const Image = () => {
       </div>
       <div className='card'>
         <img
+        id='img1'
           src={require('../img/smartphone2.jpg')}
           className='img'
           alt=''

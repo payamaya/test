@@ -1,4 +1,4 @@
-
+import'../styles/checkout.css'
 import React from 'react'
 import ReusableButton from './ReusableButton'
 const About = () => {

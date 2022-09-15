@@ -1,5 +1,5 @@
 import { FaBars, FaGithub, FaReact } from 'react-icons/fa'
-
+import '../styles/footer.css'
 const Footer = () => {
   return (
     <div className='footer'>

@@ -2,6 +2,7 @@
 /* import Button from './Button' */
 /* import Footer from './Footer'
  */ 
+import'../styles/about.css'
 import Image from './Image'
 import ReusableButton from './ReusableButton'
 

@@ -1,0 +1,11 @@
+.checkout {
+  margin: auto;
+  display: flex;
+  max-width: 667px; /* Mobile enhet 67px */
+  min-width: 375px; /* Mobile enhet 375px */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border: solid blue 1px;
+}

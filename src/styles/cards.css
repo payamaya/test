@@ -1,4 +1,4 @@
-.cards{
+/* .cards{
  width: 100vw;
  display: flex;
  justify-content: center;
@@ -27,10 +27,10 @@ box-shadow: 4px 6px 31px 5px rgba(0,0,0,0.43);
  width: inherit;
  height: inherit;
  border-radius: 40px;
-}
+} */
 /* Eventuell används img element */
 
-.card-title{
+/* .card-title{
  font-family:"Space Mono", monospace;
  text-align: center;
  border-radius:  0px 0px 40px 40px;
@@ -40,10 +40,10 @@ box-shadow: 4px 6px 31px 5px rgba(0,0,0,0.43);
  height: 40px;
 }
 .card:hover{
- scale: 0.9 0.9;
+ scale: 0.9 0.9; */
  /* transform:scale(0.9, 0.9); */
--webkit-box-shadow: 4px -5px 43px 4px rgba(0,0,0,0.46);
+/* -webkit-box-shadow: 4px -5px 43px 4px rgba(0,0,0,0.46);
 -moz-box-shadow: 4px -5px 43px 4px rgba(0,0,0,0.46);
 box-shadow: 4px -5px 43px 4px rgba(0,0,0,0.46);
 box-shadow: 4px 6px 31px 5px rgba(0,0,0,0.43);
-}
+} */
