@@ -1,4 +1,5 @@
 import { FaMobileAlt, FaCartPlus } from 'react-icons/fa'
+import {Link} from "react-router-dom"
 /* FaMobileAlt, */
 
 const Navbar = () => {
@@ -8,10 +9,10 @@ const Navbar = () => {
     
         <FaMobileAlt className='navbar-logo1' />
       <div className='navbar-items'>
-        <a href='/home'>Home</a>
-        <a href='/about'>About</a>
-        <a href='/checkout'>Checkout</a>
-        <a href='/orderconfirm'>Confirm</a>
+        <Link to='/'>Home</Link>
+        <Link to='/about'>About</Link>
+        <Link to='/checkout'>Checkout</Link>
+        <Link to='/orderconfirm'>Confirm</Link>
         <FaCartPlus className='navbar-logo' />
         
       </div>

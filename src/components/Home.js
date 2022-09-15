@@ -12,9 +12,6 @@ const Home = () => {
 
     <Image/>
 
-      {/* <button class='Button_error_ax7yz'>Error Button</button> */}
-     {/*  <ReusableButton>Home Page Button</ReusableButton>
-      <ReusableButton>Home Page Button</ReusableButton> */}
     </div>
   )
 }

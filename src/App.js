@@ -15,28 +15,16 @@ import Navbar from './components/Navbar'
 const smartMobile = new URL("./img/smartphone1.jpg", import.meta.url)
 function App() {
   return (
+    
     <BrowserRouter>
-      {/* <div>
-        <Header />
-      </div> */}
       <Navbar />
-     {/*  <video autoPlay loop muted>
-        <source width={10} height={100} src={bgImage} type='video/mp4'></source>
-      </video> */}
-      <div>
-        <Routes>
-          <Route path='/' element={<Header />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />} />
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About />} />
           <Route path='/checkout' element={<Checkout />} />
-          <Route path='/orderconfirm' element={<OrderConfirm />} />
-          {/* <Route path='/info' exact element={<Info />} /> */}
-        </Routes>
-      </div>
-{/* <div className="background">
-  <img className='image' src={smartMobile} alt="" />
-</div> */}
-      <div>
+           <Route path='/orderconfirm' element={<OrderConfirm />} />
+    </Routes>
+        <div>
         <Footer />
       </div>
     </BrowserRouter>
@@ -44,3 +32,26 @@ function App() {
 }
 
 export default App
+/* <div>
+        <Header />
+      </div> 
+      <Navbar />
+     <video autoPlay loop muted>
+        <source width={10} height={100} src={bgImage} type='video/mp4'></source>
+      </video> 
+      
+        <Routes>
+          <Route path='/' element={<Header />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/checkout' element={<Checkout />} />
+          <Route path='/orderconfirm' element={<OrderConfirm />} />
+         <Route path='/info' exact element={<Info />} />
+        </Routes>
+      
+<div className="background">
+  <img className='image' src={smartMobile} alt="" />
+</div> 
+      <div>
+        <Footer />
+      </div> */
