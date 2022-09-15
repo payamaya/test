@@ -17,16 +17,16 @@ const Image = () => {
           src={require('../img/smartphone.jpg')}
           className='img'
           alt=''
-          width={200}
-          height={170}
+          width={300}
+          height={235}
         />
         <img
           id='img3'
           src={require('../img/smartphone1.jpg')}
           className='img'
           alt=''
-          width={200}
-          height={170}
+          width={300}
+          height={235}
         />
 
         
@@ -36,13 +36,13 @@ const Image = () => {
           vero fugit expedita eligendi consequatur natus, officiis evenietm
           adipisci aspernatur animi. Nam, odio quos!
         </p>
-        <div className='button'>
-          <ReusableButton>Add to Cart </ReusableButton>
+      
+          <Link className='link1' to="checkout">Add to Cart </Link>
           <Link className='link' to='about'>
             More Info
           </Link>
         </div>
-      </div>
+     
       <div className='card'>
         <img
         id='img1'
@@ -58,10 +58,12 @@ const Image = () => {
           vero fugit expedita eligendi consequatur natus, officiis eveniet
           adipisci aspernatur animi. Nam, odio quos!
         </p>
-        <div className='button'>
-          <ReusableButton>Add to Cart</ReusableButton>
-          <ReusableButton to='info'>More Info</ReusableButton>
-        </div>
+       
+          <Link className='link1' to="checkout">Add to Cart </Link>
+          <Link className='link' to='about'>
+            More Info
+          </Link>
+       
         {/*   <BsFillArrowUpCircleFill
           onClick={toTop}
           style={{

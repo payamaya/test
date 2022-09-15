@@ -14,47 +14,71 @@ flex-wrap:wrap;
 .about{
  margin: 30px auto;
  width: 350px;
- height: 350px;
+ height: 450px;
  border-radius: 40px;
--webkit-box-shadow: 4px 6px 31px 5px rgba(0,0,0,0.43);
--moz-box-shadow: 4px 6px 31px 5px rgba(0,0,0,0.43);
-box-shadow: 4px 6px 31px 5px rgba(0,0,0,0.43);
+-webkit-box-shadow: inset 0px 0px 38px 3px rgba(10,10,168,0.72);
+-moz-box-shadow: inset 0px 0px 38px 3px rgba(10,10,168,0.72);
+box-shadow: inset 0px 0px 38px 3px rgba(10,10,168,0.72);
  cursor: pointer;
  transition: 0.4s;
  background-color: #ffff;
 }
-.about .about-img{
+.about-img{
  width: inherit;
  height: inherit;
- border-radius: 40px;
-
+ border-radius: 5px;
 }
 #img2{
- border:solid red 5px;
-border-radius:  5px;
+ border:solid rgba(10,10,168,0.72) 5px;
+border-radius: 5px 5px 0 0;
 }
 /* Eventuell används img element */
 
 .about-title{
- font-family:"Space Mono", monospace;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ font-family:Arial, Helvetica, sans-serif;
+ color: blue;
  text-align: center;
- border-radius:  0px 0px 40px 40px;
- font: 1.2rem;
- font-size: 600;
- margin-top:-80px;
- height: 40px;
 }
-.about:hover{
- scale: 0.9 0.9;
- /* transform:scale(0.9, 0.9); */
--webkit-box-shadow: 4px -5px 43px 4px rgba(0,0,0,0.46);
--moz-box-shadow: 4px -5px 43px 4px rgba(0,0,0,0.46);
-box-shadow: 4px -5px 43px 4px rgba(0,0,0,0.46);
-box-shadow: 4px 6px 31px 5px rgba(0,0,0,0.43);
-}
+
 p{
  display: flex;
  justify-content: center;
  text-align:start;
  color: red;
+}
+.about-link2:hover{
+ scale: 0.9 0.9;
+ /* transform:scale(0.9, 0.9); */
+-webkit-box-shadow: 0px 0px 38px 3px rgba(10,10,168,0.72);
+-moz-box-shadow: 0px 0px 38px 3px rgba(10,10,168,0.72);
+box-shadow: 0px 0px 38px 3px rgba(10,10,168,0.72);
+}
+
+
+.about-link2 {
+  display: flex;
+   text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  border: solid black 2px;
+  font-weight: 500;
+  margin: 0.2rem;
+}
+.about-link2 {
+
+  margin-left: 0.2rem;
+  margin-top: 9rem;
+  background-color: rgb(9, 148, 234);
+  color: white;
+  outline: none;
+  border-radius: 5px;
+}
+.about-link2:hover {
+  background-color: white;
+  color: blue;
 }

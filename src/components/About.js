@@ -1,12 +1,13 @@
 import'../styles/about.css'
-import ReusableButton from './ReusableButton'
+import {Link} from "react-router-dom"
+import AboutButton from './AboutButton'
 const abouts = () => {
   return (
    <div className="abouts">
    <div className="abouts-list">
 
 
-    <div className="about 1">
+    <div className="about">
      <div className="about-img">
        <img
           id='img2'
@@ -14,16 +15,16 @@ const abouts = () => {
           className='img'
           alt=''
           width={350}
-          height={150}
-          border={5}
+          height={200}
         />
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aut assumenda voluptate voluptas iusto, voluptates repudiandae hic? Aperiam, vitae quis?</p>
-     </div>
       <div className="about-title">
+        Samsung s20
       </div>
-       <ReusableButton>Add to cart</ReusableButton>
+       <Link  className='about-link2' to="/checkout">checkout</Link>
+     </div>
     </div>
-    <div className="about 2">
+
+    <div className="about">
      <div className="about-img">
         <img
           id='img2'
@@ -31,49 +32,52 @@ const abouts = () => {
           className='img'
           alt=''
           width={350}
-          height={150}
-          border={5}
+          height={200}
         />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aut assumenda voluptate voluptas iusto, voluptates repudiandae hic? Aperiam, vitae quis?</p>
-     </div>
+    
       <div className="about-title">
-      </div>
-      <ReusableButton>Add to cart</ReusableButton>
+        iphone14 
+        </div>
+      
+      <Link  className='about-link2' to="/checkout">checkout</Link>
     </div>
-    <div className="about 3">
-     <div className="about-img">  <img
-          id='img2'
-          src={require('../img/smartphone1.jpg')}
-          className='img'
-          alt=''
-          width={350}
-          height={150}
-          border={5}
-        />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aut assumenda voluptate voluptas iusto, voluptates repudiandae hic? Aperiam, vitae quis?</p></div>
-      <div className="about-title">
-     
-      </div>
-       <ReusableButton>Add to cart</ReusableButton>
-    </div>
-    <div className="about 4">
-     <div className="about-img">  <img
+</div>
+
+    <div className="about">
+     <div className="about-img">
+       <img
           id='img2'
           src={require('../img/smartphone.jpg')}
           className='img'
           alt=''
           width={350}
-          height={150}
-          border={5}
+          height={200}
         />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aut assumenda voluptate voluptas iusto, voluptates repudiandae hic? Aperiam, vitae quis?</p></div>
       <div className="about-title">
-     
+        HUAWEI
       </div>
-       <ReusableButton>Add to cart</ReusableButton>
+       <Link  className='about-link2' to="/checkout">checkout</Link>
+     </div>
     </div>
-    
 
+    <div className="about">
+     <div className="about-img">
+        <img
+          id='img2'
+          src={require('../img/smartphone2.jpg')}
+          className='img'
+          alt=''
+          width={350}
+          height={200}
+        />
+    
+      <div className="about-title">
+        Iphon13
+        </div>
+      
+      <Link  className='about-link2' to="/checkout">checkout</Link>
+    </div>
+</div>
 
    </div>
   </div>

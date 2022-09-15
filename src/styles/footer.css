@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-around;
+  font-family: 'Source Sans Pro', sans-serif;;
   align-items: center;
   border: solid green 5px;
 }

@@ -1,4 +1,4 @@
-.container {
+.confirm-form {
  margin: 2rem;
   display: flex;
   max-width: 667px; 
@@ -9,29 +9,14 @@
   flex-wrap: wrap;
   border: solid red 5px;
 }
-.container {
+.confirm-form {
   /*   background-color: #6e95b8; */
   width: 50%;
   height: 610px;
   margin: 30px auto;
   text-decoration: none;
 }
-.container >h1{
+.confirm-form >h1{
   color: red;
   margin-bottom: 25rem;
 }
-.checkout {
-  margin-top: -5rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  flex-wrap: wrap;
-  border: solid blue 1px;
-}
-.btn-checkout{
-  margin: 5rem;
-  justify-content: center;
-  align-content: center;
-}
-

@@ -4,7 +4,7 @@
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
+  align-content: center;
   align-items: center;
   justify-content: space-around;
   border: solid blue 5px;
@@ -12,12 +12,13 @@
 .navbar-items > a {
   /*   flex-wrap: wrap;
   align-content: flex-start; */
+  
   margin: 5px;
   padding: 5px;
   color: hsl(324, 44%, 50%);
   font-weight: 900;
-  font-family: sans-serif;
-  font-size: 1rem;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
 }
 .navbar >h1 {
