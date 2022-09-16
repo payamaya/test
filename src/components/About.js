@@ -1,12 +1,10 @@
-import'../styles/about.css'
+import '../styles/about.css'
 import {Link} from "react-router-dom"
-import AboutButton from './AboutButton'
-const abouts = () => {
+/* import AboutButton from './AboutButton' */
+const About = () => {
   return (
    <div className="abouts">
    <div className="abouts-list">
-
-
     <div className="about">
      <div className="about-img">
        <img
@@ -18,12 +16,11 @@ const abouts = () => {
           height={200}
         />
       <div className="about-title">
-        Samsung s20
+        <h2>Samsung s20</h2>  
       </div>
        <Link  className='about-link2' to="/checkout">checkout</Link>
      </div>
     </div>
-
     <div className="about">
      <div className="about-img">
         <img
@@ -34,15 +31,12 @@ const abouts = () => {
           width={350}
           height={200}
         />
-    
       <div className="about-title">
-        iphone14 
-        </div>
-      
+        <h2>iphone14 </h2>
+        </div>     
       <Link  className='about-link2' to="/checkout">checkout</Link>
     </div>
 </div>
-
     <div className="about">
      <div className="about-img">
        <img
@@ -54,12 +48,11 @@ const abouts = () => {
           height={200}
         />
       <div className="about-title">
-        HUAWEI
+        <h2>HUAWEI</h2>
       </div>
        <Link  className='about-link2' to="/checkout">checkout</Link>
      </div>
     </div>
-
     <div className="about">
      <div className="about-img">
         <img
@@ -70,17 +63,14 @@ const abouts = () => {
           width={350}
           height={200}
         />
-    
       <div className="about-title">
-        Iphon13
+        <h2>ipad pro</h2>
         </div>
-      
       <Link  className='about-link2' to="/checkout">checkout</Link>
     </div>
-</div>
-
+  </div>
    </div>
   </div>
   )
 }
-export default abouts
+export default About
