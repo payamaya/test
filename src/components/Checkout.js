@@ -13,7 +13,7 @@ export default function Checkout() {
   
   return (
     <div className='checkout'>
-    
+   
     <form className='form' onSubmit={handleSubmit(onSubmit)}>
       <input type="text" placeholder="First name" {...register("First name", {required: true, maxLength: 80})} />
       <input type="text" placeholder="Last name" {...register("Last name", {required: true, maxLength: 100})} />
